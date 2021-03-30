@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 100px;
+	margin: 100px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 50px;
+	color: darkred;
+	background-color: #000;
+}

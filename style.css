@@ -1,0 +1,430 @@
+html
+{
+	background-size: auto;
+}
+meta
+{
+    display: none;
+}
+head
+{
+    display: none;
+
+}
+body
+{
+    margin: 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(white, black);
+
+	font: 13px/1.231 arial, helvetica, clean, sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    line-height: 1.231;
+    font-family: arial, helvetica, clean, serif;
+}
+body
+{
+    text-align: left;
+}
+header
+{
+    color: #FFFFFF;
+    font-family: all;
+}
+#doc-body, #doc-body2, #doc-body3, #doc-body4
+{
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: left;
+    width: 80.69em;
+    min-width: 30px;
+}
+.boxcontent
+{
+    padding: 10em;
+    padding-top: 25em;
+    padding-right: 0.5em;
+    padding-bottom: 0;
+    padding-left: 0.5em;
+    line-height: 110%;
+}
+.boxcontent, #ft, #whatis
+{
+    font-size: 60%;
+}
+.top
+{
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+}
+.box-outer
+{
+    background-color: #FFFFFF;
+    border-top-color: initial;
+    border-top-width: 1px;
+    border-right-color: initial;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: initial;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: initial;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    zoom: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.box-content
+{
+    height: 380px;
+    padding: 3em;
+    padding-top: 1px;
+    padding-right: 0.1em;
+    padding-bottom: 0;
+    padding-left: 2em;
+    overflow: hidden;
+}
+.boxcontent
+{
+    font-size: 100%;
+}
+#boards .column
+{
+    display: inline;
+    float: left;
+    width: 12em;
+    line-height: 125%;
+}
+.column2
+{
+    float: right;
+    width: 20em;
+    line-height: 115%;
+    text-align: right;
+    bottom: 550px;
+}
+#boards a, b
+{
+    color: #006400;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+#tags
+{
+    text-align: left;
+    width: 15em;
+    line-height: 115%;
+    bottom: 550px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+ul, menu, dir
+{
+    display: block;
+    list-style-type: disc;
+    list-style-position: initial;
+    list-style-image: initial;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+li
+{
+    list-style-position: initial;
+    list-style-image: initial;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td
+{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+li
+{
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+body
+{
+	font-family: sans-serif;
+	text-align: left;
+	position: 25px;
+}
+#hd
+{
+    margin-bottom: 0;
+}
+#logo
+{
+    font-size: 0.10px;
+    line-height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#logo img
+{
+	padding: 10em;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: block;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.XChan
+{
+	border-top: 1px solid #008000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-left: 10px;
+    text-align: left;
+}
+.info
+{
+	border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+	background-color: #FFF;
+	color: #8B0000;
+	text-align: left;
+	text-orientation: sideways;
+	padding: 5px;
+}
+#info-2
+{
+    border-bottom: 1px solid #8A0808;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background-color: #000000;
+    color: #000000;
+    text-align: left;
+    text-orientation: sideways;
+    padding: 5px;
+}
+h3
+{
+    font-size: 120%;
+    font-weight: bold;
+}
+h2
+{
+    font-weight: bold;
+    text-align: center;
+}
+h1
+{
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: #000 1px 1px 0px;
+    color: white;
+    line-height: 110%;
+    letter-spacing: 2px;
+    text-align: center;
+    background-image: url(../gfx/bg-h1.png), url(../gfx/bg-h1.png);
+    background-position: left 50%, right 50%;
+    background-repeat: no-repeat;
+    padding: 30px 25px 30px 25px;
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    margin: 40px 0;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+a:link
+{
+    text-decoration: none;
+}
+a:visited
+{
+    color: white;
+}
+a:-webkit-any-link
+{
+    color: -webkit-link;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: underline;
+}
+li
+{
+    text-align: left;
+    text-align: -webkit-match-parent;
+}
+li
+{
+    text-align: left;
+    display: list-item;
+}
+.front article.node-page ul, .front article.node-page li
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    list-style-type: none;
+}
+.front article.node-page ul, .front article.node-page li
+{
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+article.node-page li
+{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+div
+{
+    display: block;
+}
+.boxbar
+{
+    background: #000000;
+    color: #FFFFFF;
+}
+.boxbar
+{
+    position: relative;
+    zoom: 100%;
+}
+.boxbar
+{
+    padding-left: .5em;
+    line-height: 2em;
+}
+body
+{
+    font: 13px/1.231 arial, helvetica, clean, sans-serif;
+}
+body
+{
+    color: #000000;
+}
+body
+{
+    font: 13px/1.231 arial, helvetica, clean, sans-serif;
+}
+body
+{
+	   text-align: center;
+}
+#chatRoom
+{
+	  background-color: #000000;
+  	text-color: white;
+  	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: block;
+}
+#xmpp
+{
+	background-color: red;
+	color: #FFF;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+#copyright
+{
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}

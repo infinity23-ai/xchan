@@ -1,0 +1,411 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html
+{
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+th
+{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+table
+{
+    border-collapse: separate;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+table
+{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    border-color: grey;
+}
+#postform
+{
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.postform
+{
+    font-size: 0.9em;
+}
+.norm-reply
+{
+    text-align: center;
+}
+body
+{
+	color: #000;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+body
+{
+	background-color: #3e3e3e;
+}
+div
+{
+	display: block;
+}
+a, a:visited
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a:hover
+{
+    color: #FFFFFF;
+}
+a:-webkit-any-link
+{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a:-webkit-any-link:active
+{
+    color: -webkit-activelink;
+}
+a:-webkit-any-link
+{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+div#boardDesktop
+{
+	color: #FFFFFF;
+    font-size: 9pt;
+    display: block;
+}
+div.boardBanner
+{
+    text-align: center;
+    clear: both;
+    color: #FFFFFF;
+}
+div.boardBanner>div.boardTitle
+{
+    font-family: Tahoma,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-top: 0;
+    padding: 20px;
+}
+form table
+{
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+tbody
+{
+	text-align: center;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+input
+{
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+#post-form-outer
+{
+    text-align: center;
+
+}
+hr
+{
+    border: 0;
+    border-top-color: rgb(183, 197, 217);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top: 1px solid #b7c5d9;
+    height: 0;
+}
+a, a:visited, .desktop
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    text-align: center;
+}
+a, a:-webkit-any-link
+{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+#postform td.label
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+#postform td
+{
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+table td
+{
+    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+th
+{
+    font-weight: bold;
+    text-align: -internal-center;
+}
+td, td img
+{
+    vertical-align: top;
+}
+legend, td, th
+{
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+table
+{
+    border-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#postform td
+{
+    padding: 10;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#postform td #submit
+{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    width: 88px;
+    float: left;
+}
+.post-table, .label-desktop
+{
+	color: #FFFFFF;
+    font-weight: 80;
+    letter-spacing: 1px;
+    margin-top: 0;
+    padding: 7px;
+}
+#shampoo
+{
+    width: 304px;
+    height: 162px;
+}
+#subject
+{
+    width: 294px;
+    height: 19px;
+}
+#postform
+{
+    margin-right: 20px;
+}
+#e-mail
+{
+    width: 294px;
+    height: 19px;
+}
+#postform
+{
+    width: 50px;
+    height: 19px;
+}
+td, td img
+{
+    vertical-align: top;
+}
+legend, td, th
+{
+    padding: 0;
+}
+#postform .mail input[type="text"]
+{
+    width: 500px;
+    margin-right: 0;
+    float: left;
+}
+input[type="text"], textarea, input, input[type="button"], input[type="submit"], select, .mselect
+{
+    background-color: #FFFFFF!important;
+    color: #000000!important;
+    border: 1px solid #FFFFFF;
+}
+input::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+    padding-top: 1px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+}
+input::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: outset;
+    border-top-style: outset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    border-color: buttonface;
+    border-top-color: buttonface;
+    border-right-color: buttonface;
+    border-bottom-color: buttonface;
+    border-left-color: buttonface;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.btn-active {
+  	border: none;
+ 	outline: none;
+ 	padding: 10px 20px;
+  	background-color: #f1f1f1;
+  	cursor: pointer;
+}
+.Title {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	text-align: center;
+}
+input {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+input
+{
+    line-height: normal;
+}
