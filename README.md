@@ -1,3 +1,0 @@
-# xchan
-
-Xchan is imageboard.
